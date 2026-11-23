@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Cloner le depot') {
             steps {
-                git url: 'https://github.com/doniaoueslati2-blip/MonProjetJenkins.git', branch: 'main'
+                git url: 'https://github.com/donia260/MonProjetJenkins.git', branch: 'main'
             }
         }
 
